@@ -1,0 +1,14 @@
+# Built binary (the module name collides with the package directory name, so
+# name it explicitly rather than relying on a pattern).
+/dependabot
+
+# Test and coverage output
+coverage.out
+*.test
+*.out
+
+# Editor and OS cruft
+.DS_Store
+.idea/
+.vscode/
+*.swp
